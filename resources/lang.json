@@ -43,6 +43,15 @@
     "nominoredit":
       "Aucune modifications mineures : ",
 
+    "entertheurlforthewikipediawebsitethecontributorhascontributedto":
+      "Entrer le URL du site web Wikipedia où le contributeur a contribué (sans http://). Exemple : fr.wikipedia.org",
+
+    "entertheusernameoripaddressofthecontributor":
+      "Entrer le nom d'utilisateur ou l'adresse IP du contributeur",
+
+    "usernameoripofthecontributor":
+      "Nom d'utilisateur ou l'adresse IP du contributeur",
+
     "send":
       "Envoyer",
       
