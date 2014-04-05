@@ -23,6 +23,10 @@
 
     "levenshtein":
       "Valeur de distance de Levenshtein : ",
+      
+	"mycontribution":
+	  "Ma contribution : ",
+
 
     "no":
       "Non",
@@ -60,6 +64,18 @@
     "to":
       "Au",
 
+    "vsoriginal":
+      "vs originale",
+      
+    "vsprevious":
+      "vs précédente",
+      
+    "vsnext":
+      "vs suivante",
+      
+    "vslast":
+      "vs dernière",  
+
     "yes":
       "Oui"
   },
@@ -88,6 +104,9 @@
 
     "levenshtein":
       "Levenshtein distance value: ",
+
+    "mycontribution":
+      "My contribution: ",
 
     "no":
       "No",
@@ -124,6 +143,19 @@
 
     "to":
       "To",
+
+    "vsoriginal":
+      "vs original",
+      
+    "vsprevious":
+      "vs previous",
+      
+    "vsnext":
+      "vs next",
+      
+    "vslast":
+      "vs last",  
+
 
     "yes":
       "Yes"
