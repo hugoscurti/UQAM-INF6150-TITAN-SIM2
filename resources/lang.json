@@ -9,11 +9,8 @@
     "articles":
       "Articles",
 
-    "articles_which":
-      "Articles auxquels",
-
-    "contributed_to":
-      "a contribué(e) avec un score total de : ",
+    "articleswhichusercontributed":
+      "Articles auxquels {0} a contribué(e) avec un score total de: ",
 
     "from":
       "Du",
@@ -95,11 +92,8 @@
     "articles":
       "Articles",
 
-    "articles_which":
-      "Articles which",
-
-    "contributed_to":
-      "contributed to with total score: ",
+    "articleswhichusercontributed":
+      "Articles which {0} contributed to with total score: ",
 
     "from":
       "From",
