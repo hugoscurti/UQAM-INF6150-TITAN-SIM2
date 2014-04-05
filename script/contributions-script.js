@@ -91,11 +91,11 @@ function doSlideUpAnimation(contributions, index, lastItem, totalVal, html_list_
 
       html += '<div class="list_articles_item_title">' + contributions[index].title + '</div>' +
                             '<span class="list_articles_item_surv"></span>' +
-                            '<div class="list_articles_item_size">Size: ' + contributions[index].size + '</div>';
+                            '<div class="list_articles_item_size" i18nkey="size">Size: ' + contributions[index].size + '</div>';
     if (contributions[index].sizediff < 0) {
-      html += '<div class="list_articles_item_size_diff">Size diff: <span class="sizediff_neg">' + Math.abs(contributions[index].sizediff) + '</span></div>';
+      html += '<div class="list_articles_item_size_diff", i18nkey="sizediff">Size diff: <span class="sizediff_neg">' + Math.abs(contributions[index].sizediff) + '</span></div>';
     } else {
-      html += '<div class="list_articles_item_size_diff">Size diff: ' + contributions[index].sizediff + '</div>';
+      html += '<div class="list_articles_item_size_diff" i18nkey="sizediff">Size diff: ' + contributions[index].sizediff + '</div>';
     }
     html += '<span class="list_articles_item_time">' + contributions[index].timestamp + '</span>';
     html += '<input class="list_articles_item_pageid" type="hidden" value="' + contributions[index].pageid + '"/>' +
