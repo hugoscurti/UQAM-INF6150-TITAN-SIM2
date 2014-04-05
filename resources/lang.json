@@ -1,5 +1,12 @@
 ﻿{
   "fr-CA": {
+  	
+  	"setLanguageFrench": 
+	  "Français",
+  	
+  	"setLanguageEnglish": 
+  	  "Anglais",
+  
     "advancedsearch":
       "Recherche avancée",
 
@@ -17,12 +24,18 @@
 
     "from":
       "Du",
+      
+    "grisouwikicontributionsproject":
+      "Grisou | Projet de contributions Wiki",      
 
-    "GRISOUscientificcontributionsreporterbyVOGG2013":
+    "grisouscientificcontributionsreporterbyvogg2013":
       "Outil de reconnaissance de contributions scientifiques par VOGG 2013 (GRISOU)",
 
     "levenshtein":
       "Valeur de distance de Levenshtein : ",
+      
+	"mycontribution":
+	  "Ma contribution : ",
 
     "no":
       "Non",
@@ -30,16 +43,13 @@
     "nominoredit":
       "Aucune modifications mineures : ",
 
-    "Entertheurlforthewikipediawebsitethecontributorhascontributedto":
+    "entertheurlforthewikipediawebsitethecontributorhascontributedto":
       "Entrer le URL du site web Wikipédia où le contributeur a contribué (sans http://). Exemple : fr.wikipedia.org",
 
-    "Wikipediawebsite":
-      "Site web de Wikipedia",
-
-    "Entertheusernameoripaddressofthecontributor":
+    "entertheusernameoripaddressofthecontributor":
       "Entrer le nom d'utilisateur ou l'adresse IP du contributeur",
 
-    "Usernameoripofthecontributor":
+    "usernameoripofthecontributor":
       "Nom d'utilisateur ou l'adresse IP du contributeur",
 
     "send":
@@ -60,11 +70,23 @@
     "talks":
       "Discussions",
 
-    "grisouwikicontributionsproject":
-      "Grisou | Projet de contributions Wiki",
-
     "to":
       "Au",
+
+    "vsoriginal":
+      "vs originale",
+      
+    "vsprevious":
+      "vs précédente",
+      
+    "vsnext":
+      "vs suivante",
+      
+    "vslast":
+      "vs dernière", 
+      
+    "wikipediawebsite":
+      "Site web de Wikipedia", 
 
     "yes":
       "Oui"
@@ -88,12 +110,18 @@
 
     "from":
       "From",
+      
+    "grisouwikicontributionsproject":
+      "Grisou | Wiki contributions Project",
 
-    "GRISOUscientificcontributionsreporterbyVOGG2013":
+    "grisouscientificcontributionsreporterbyvogg2013":
       "GRISOU scientific contributions reporter by VOGG 2013",
 
     "levenshtein":
       "Levenshtein distance value: ",
+
+    "mycontribution":
+      "My contribution: ",
 
     "no":
       "No",
@@ -101,20 +129,14 @@
     "nominoredit":
       "No minor edit: ",
 
-    "Entertheurlforthewikipediawebsitethecontributorhascontributedto":
+    "entertheurlforthewikipediawebsitethecontributorhascontributedto":
       "Enter the URL for the Wikipedia web site the contributor has contributed to (without the http://), Example: en.wikipedia.org",
-      
-    "Wikipediawebsite":
-      "Wikipedia web site",
 
-    "Entertheusernameoripaddressofthecontributor":
+    "entertheusernameoripaddressofthecontributor":
       "Enter the username or IP address of the contributor.",
       
-    "Usernameoripofthecontributor":
+    "usernameoripofthecontributor":
       "Username or ip of the contributor",
-
-    "grisouwikicontributionsproject":
-      "Grisou | Wiki contributions Project",
 
     "send":
       "Send",
@@ -136,6 +158,21 @@
 
     "to":
       "To",
+
+    "vsoriginal":
+      "vs original",
+      
+    "vsprevious":
+      "vs previous",
+      
+    "vsnext":
+      "vs next",
+      
+    "vslast":
+      "vs last",  
+
+    "wikipediawebsite":
+      "Wikipedia web site",
 
     "yes":
       "Yes"

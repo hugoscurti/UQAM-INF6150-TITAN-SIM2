@@ -286,3 +286,8 @@ del{
     padding-left: 2px !important;
     padding-bottom: 0px !important;
 }
+
+#language_div{
+	float: left;
+	margin-left: 15px;
+}

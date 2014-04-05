@@ -51,6 +51,7 @@ var i18n = (function(){
 		
 		return valeurTraduite;
 	};
+	
 
 	
 	//i18nkey_title
@@ -64,17 +65,29 @@ var i18n = (function(){
 		$("[i18nkey]").each(function() {
 			key = $(this).attr("i18nkey");
 			textValue= my.translate(key);
+			
+			//iterate through text value to find {i} occurences
+			var i = 0;
+			var args = [];
+			while($(this).attr("i18nreplace" + i) !== undefined) {
+				args.push($(this).attr("i18nreplace" + i++));
+			}
+			
+			if(args.length > 0) {
+				textValue = my.translate(key, args);
+			}
+			
 			var tagName = $(this).prop("tagName");
 			var text = $(this).prop("text");
 			
 			if (tagName === "INPUT") {
                 if (text !== undefined) {
-                    $(this).text(result);
+                    $(this).text(textValue);
                 } else {
-                    $(this).val(result);
+                    $(this).val(textValue);
                 }
             } else {
-                $(this).html(result);
+                $(this).html(textValue);
             }
 		});
 		
@@ -91,5 +104,16 @@ var i18n = (function(){
 		});
 	};
 	
+	
+	//fonction appelée par les boutons qui changent dynamiquement le texte de la page
+	my.changeLanguage = function(newLanguage) {
+		my.setCurrentLanguage(newLanguage);
+		my.translatePage($);
+	};
+	
 	return my;
 })();
+
+
+
+
