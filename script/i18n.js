@@ -1,4 +1,4 @@
-var i18n = (function(){
+var i18n = (function($){
 	var my = {};
 	var currentLanguage = null;
 	var traduction = null;
@@ -58,7 +58,7 @@ var i18n = (function(){
 	//i18nkey_placeholder
 	//i18nkey
 	//On doit avoir en paramètre l'objet jquery
-	my.translatePage = function($){
+	my.translatePage = function(){
 		var key = "";
 		var textValue = "";
 		
@@ -108,11 +108,11 @@ var i18n = (function(){
 	//fonction appelée par les boutons qui changent dynamiquement le texte de la page
 	my.changeLanguage = function(newLanguage) {
 		my.setCurrentLanguage(newLanguage);
-		my.translatePage($);
+		my.translatePage();
 	};
 	
 	return my;
-})();
+})($);
 
 
 
