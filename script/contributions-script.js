@@ -47,7 +47,7 @@ function callback_Q1(data, continueFlag) {
     totalVal = parseInt($("#total_score_contr").text());
     html_list_articles = $("#articles").html();
   }else{
-    $("#titre").html('<span i18nkey="articleswhichusercontributed">Articles which ' + user + ' contributed to with total score: </span><span id="total_score_contr"></span>');
+    $("#titre").html('<span i18nkey="articleswhichusercontributed" i18nreplace0="' + user + '">Articles which {0} contributed to with total score: </span><span id="total_score_contr"></span>');
   }
 
   //doSlideUpAnimation(contributions, 0, lastItem, totalVal, html_list_articles);
