@@ -1,6 +1,6 @@
 ﻿{
   "fr-CA": {
-    "advanced_search":
+    "advancedsearch":
       "Recherche avancée",
 
     "article":
@@ -18,7 +18,7 @@
     "from":
       "Du",
 
-    "header":
+    "GRISOUscientificcontributionsreporterbyVOGG2013":
       "Outil de reconnaissance de contributions scientifiques par VOGG 2013 (GRISOU)",
 
     "levenshtein":
@@ -27,14 +27,20 @@
     "no":
       "Non",
 
-    "no_edit":
+    "nominoredit":
       "Aucune modifications mineures : ",
 
-    "popup_url":
+    "Entertheurlforthewikipediawebsitethecontributorhascontributedto":
       "Entrer le URL du site web Wikipédia où le contributeur a contribué (sans http://). Exemple : fr.wikipedia.org",
 
-    "popup_username":
+    "Wikipediawebsite":
+      "Site web de Wikipedia",
+
+    "Entertheusernameoripaddressofthecontributor":
       "Entrer le nom d'utilisateur ou l'adresse IP du contributeur",
+
+    "Usernameoripofthecontributor":
+      "Nom d'utilisateur ou l'adresse IP du contributeur",
 
     "send":
       "Envoyer",
@@ -42,19 +48,19 @@
     "size":
       "Taille :",
 
-    "size_diff":
+    "sizediff":
       "Différence de taille :",
 
-    "survived":
+    "thecontributionsurvivedno":
       "La contribution a survécu : ",
 
     "talk":
-    "Discussion",
+      "Discussion",
 
     "talks":
       "Discussions",
 
-    "title":
+    "grisouwikicontributionsproject":
       "Grisou | Projet de contributions Wiki",
 
     "to":
@@ -65,7 +71,7 @@
   },
 
   "en-CA": {
-    "advanced_search":
+    "advancedsearch":
       "Advanced search",
 
     "article":
@@ -83,7 +89,7 @@
     "from":
       "From",
 
-    "header":
+    "GRISOUscientificcontributionsreporterbyVOGG2013":
       "GRISOU scientific contributions reporter by VOGG 2013",
 
     "levenshtein":
@@ -92,16 +98,22 @@
     "no":
       "No",
 
-    "no_edit":
+    "nominoredit":
       "No minor edit: ",
 
-    "popup_url":
+    "Entertheurlforthewikipediawebsitethecontributorhascontributedto":
       "Enter the URL for the Wikipedia web site the contributor has contributed to (without the http://), Example: en.wikipedia.org",
+      
+    "Wikipediawebsite":
+      "Wikipedia web site",
 
-    "popup_username":
+    "Entertheusernameoripaddressofthecontributor":
       "Enter the username or IP address of the contributor.",
+      
+    "Usernameoripofthecontributor":
+      "Username or ip of the contributor",
 
-    "title":
+    "grisouwikicontributionsproject":
       "Grisou | Wiki contributions Project",
 
     "send":
@@ -110,10 +122,10 @@
     "size":
       "Size: ",
 
-    "size_diff":
+    "sizediff":
       "Size diff: ",
 
-    "survived":
+    "thecontributionsurvivedno":
       "The contribution survived: ",
 
     "talk":
