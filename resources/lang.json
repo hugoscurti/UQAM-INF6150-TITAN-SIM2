@@ -32,7 +32,7 @@
       "Grisou | Projet de contributions Wiki",        
 
     "levenshtein":
-      "Valeur de distance de Levenshtein : ",
+      "Valeur de distance de Levenshtein : {0}",
       
 	"mycontribution":
 	  "Ma contribution : ",
@@ -125,7 +125,7 @@
       "Grisou | Wiki contributions Project",      
       
     "levenshtein":
-      "Levenshtein distance value: ",
+      "Levenshtein distance value: {0}",
 
     "mycontribution":
       "My contribution: ",

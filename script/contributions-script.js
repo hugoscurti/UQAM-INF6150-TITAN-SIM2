@@ -62,12 +62,15 @@ function callback_Q1(data, continueFlag) {
 
   var contributions = data.query.usercontribs, totalVal = 0, html_list_articles = "";
   var lastItem = $(".last_item .list_articles_item_pageid").val();
+  var spandiff = "<span i18nkey='sizediff'>" + _("sizediff") + " </span>";
+  
   $(".list_articles_item").removeClass("last_item");
   if(continueFlag){
     totalVal = parseInt($("#total_score_contr").text());
     html_list_articles = $("#articles").html();
   }else{
-    $("#titre").html('<span i18nkey="articleswhichusercontributed" i18nreplace0="' + user + '">Articles which {0} contributed to with total score: </span><span id="total_score_contr"></span>');
+  	
+    $("#titre").html('<span i18nkey="articleswhichusercontributed" i18nreplace0="' + user + '">' + _('articleswhichusercontributed', [user]) + '</span><span id="total_score_contr"></span>');
   }
 
   //doSlideUpAnimation(contributions, 0, lastItem, totalVal, html_list_articles);
@@ -81,11 +84,13 @@ function callback_Q1(data, continueFlag) {
 
         html_list_articles += '<div class="list_articles_item_title">' + contributions[i].title + '</div>' +
                               '<span class="list_articles_item_surv"></span>' +
-                              '<div class="list_articles_item_size" i18nkey="size">Size: ' + contributions[i].size + '</div>';
+                              '<div class="list_articles_item_size">'+ spandiff + '<span>' + contributions[i].size + '</span></div>';
+      
+      
       if (contributions[i].sizediff < 0) {
-        html_list_articles += '<div class="list_articles_item_size_diff" i18nkey="sizediff">Size diff: <span class="sizediff_neg">' + Math.abs(contributions[i].sizediff) + '</span></div>';
+        html_list_articles += '<div class="list_articles_item_size_diff">' + spandiff + '<span class="sizediff_neg">' + Math.abs(contributions[i].sizediff) + '</span></div>';
       } else {
-        html_list_articles += '<div class="list_articles_item_size_diff" i18nkey="sizediff">Size diff: ' + contributions[i].sizediff + '</div>';
+        html_list_articles += '<div class="list_articles_item_size_diff">' + spandiff + '<span>' + contributions[i].sizediff + '</span></div>';
       }
       html_list_articles += '<span class="list_articles_item_time">' + contributions[i].timestamp + '</span>';
       html_list_articles += '<input class="list_articles_item_pageid" type="hidden" value="' + contributions[i].pageid + '"/>' +
@@ -111,11 +116,14 @@ function doSlideUpAnimation(contributions, index, lastItem, totalVal, html_list_
 
       html += '<div class="list_articles_item_title">' + contributions[index].title + '</div>' +
                             '<span class="list_articles_item_surv"></span>' +
-                            '<div class="list_articles_item_size" i18nkey="size">Size: ' + contributions[index].size + '</div>';
+                            '<div class="list_articles_item_size" i18nkey="size">' + _("size")+ ' ' + contributions[index].size + '</div>';
+    
+    var spandiff = "<span i18nkey='sizediff'>" + _("sizediff") + " </span>";
     if (contributions[index].sizediff < 0) {
-      html += '<div class="list_articles_item_size_diff", i18nkey="sizediff">Size diff: <span class="sizediff_neg">' + Math.abs(contributions[index].sizediff) + '</span></div>';
+    	
+      html += '<div class="list_articles_item_size_diff">' + spandiff + '<span class="sizediff_neg">' + Math.abs(contributions[index].sizediff) + '</span></div>';
     } else {
-      html += '<div class="list_articles_item_size_diff" i18nkey="sizediff">Size diff: ' + contributions[index].sizediff + '</div>';
+      html += '<div class="list_articles_item_size_diff">' + spandiff + '<span>' + contributions[index].sizediff + '</span></div>';
     }
     html += '<span class="list_articles_item_time">' + contributions[index].timestamp + '</span>';
     html += '<input class="list_articles_item_pageid" type="hidden" value="' + contributions[index].pageid + '"/>' +
@@ -360,8 +368,9 @@ function getArticle(item) {
     analysisTable = getDiff(oldText, newText);
     edits += analysisTable;
     if (activeAjaxConnections === 0) {
-      $("#article_head").text(_("Articletitleon", [title, $("#url").val()]));
+      $("#article_head").text(_("articletitleon", [title, $("#url").val()]));
       $("#contr_survived").text(_("thecontributionsurvivedno"));
+      $("#contr_survived").attr("i18nkey", "thecontributionsurvivedno");
       $("#edits").html(edits);
       stopLoading();
       $("#contente_article").animate({

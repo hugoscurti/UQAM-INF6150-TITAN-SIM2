@@ -9,9 +9,16 @@ function strip_tags(input, allowed) {
 }
 
 function getDiff(text1, text2) {
+  var _ = i18n.translate;
   var dmp = new diff_match_patch();
   var res = dmp.diff_main(strip_tags(text1), strip_tags(text2));
   dmp.diff_cleanupSemantic(res);
-  $("#contr_value").text("Levenshtein distance value: " + dmp.diff_levenshtein(res));
+  
+  var contrib_value = $("#contr_value");
+  var difflevenshtein = dmp.diff_levenshtein(res);
+  contrib_value.text(_('levenshtein', [difflevenshtein]));
+  contrib_value.attr("i18nkey", "levenshtein");
+  contrib_value.attr("i18nreplace0", difflevenshtein);
+  
   return dmp.diff_prettyHtml(res);
 }
