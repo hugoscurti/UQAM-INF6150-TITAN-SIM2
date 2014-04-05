@@ -340,7 +340,7 @@ function getArticle(item) {
     analysisTable = getDiff(oldText, newText);
     edits += analysisTable;
     if (activeAjaxConnections === 0) {
-      $("#article_head").text(_("Articletitleon", [title, $("#url").val())]);
+      $("#article_head").text(_("Articletitleon", [title, $("#url").val()]));
       $("#contr_survived").text(_("thecontributionsurvivedno"));
       $("#edits").html(edits);
       stopLoading();
