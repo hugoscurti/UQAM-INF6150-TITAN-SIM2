@@ -104,5 +104,16 @@ var i18n = (function(){
 		});
 	};
 	
+	
+	//fonction appelée par les boutons qui changent dynamiquement le texte de la page
+	my.changeLanguage = function(newLanguage) {
+		my.setCurrentLanguage(newLanguage);
+		my.translatePage($);
+	};
+	
 	return my;
 })();
+
+
+
+
