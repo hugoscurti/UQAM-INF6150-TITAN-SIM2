@@ -1,0 +1,131 @@
+﻿{
+  "fr-CA": {
+    "advanced_search":
+      "Recherche avancée",
+
+    "article":
+      "Article",
+
+    "articles":
+      "Articles",
+
+    "articles_which":
+      "Articles auxquels",
+
+    "contributed_to":
+      "a contribué(e) avec un score total de : ",
+
+    "from":
+      "Du",
+
+    "header":
+      "Outil de reconnaissance de contributions scientifiques par VOGG 2013 (GRISOU)",
+
+    "levenshtein":
+      "Valeur de distance de Levenshtein : ",
+
+    "no":
+      "Non",
+
+    "no_edit":
+      "Aucune modifications mineures : ",
+
+    "popup_url":
+      "Entrer le URL du site web Wikipédia où le contributeur a contribué (sans http://). Exemple : fr.wikipedia.org",
+
+    "popup_username":
+      "Entrer le nom d'utilisateur ou l'adresse IP du contributeur",
+
+    "send":
+      "Envoyer",
+
+    "size":
+      "Taille :",
+
+    "size_diff":
+      "Différence de taille :",
+
+    "survived":
+      "La contribution a survécu : ",
+
+    "talk":
+    "Discussion",
+
+    "talks":
+      "Discussions",
+
+    "title":
+      "Grisou | Projet de contributions Wiki",
+
+    "to":
+      "Au",
+
+    "yes":
+      "Oui"
+  },
+
+  "en-CA": {
+    "advanced_search":
+      "Advanced search",
+
+    "article":
+      "Article",
+
+    "articles":
+      "Articles",
+
+    "articles_which":
+      "Articles which",
+
+    "contributed_to":
+      "contributed to with total score: ",
+
+    "from":
+      "From",
+
+    "header":
+      "GRISOU scientific contributions reporter by VOGG 2013",
+
+    "levenshtein":
+      "Levenshtein distance value: ",
+
+    "no":
+      "No",
+
+    "no_edit":
+      "No minor edit: ",
+
+    "popup_url":
+      "Enter the URL for the Wikipedia web site the contributor has contributed to (without the http://), Example: en.wikipedia.org",
+
+    "popup_username":
+      "Enter the username or IP address of the contributor.",
+
+    "title":
+      "Grisou | Wiki contributions Project",
+
+    "send":
+      "Send",
+
+    "size":
+      "Size: ",
+
+    "size_diff":
+      "Size diff: ",
+
+    "survived":
+      "The contribution survived: ",
+
+    "talk":
+      "Talk",
+
+    "talks":
+      "Talks",
+
+    "to":
+      "To",
+
+    "yes":
+      "Yes"
+  }
+}
