@@ -12,15 +12,15 @@
 
     "article":
       "Article",
+      
+    "articletitleon":
+      "Article: '{0}' sur {1}",      
 
     "articles":
       "Articles",
 
-    "articles_which":
-      "Articles auxquels",
-
-    "contributed_to":
-      "a contribué(e) avec un score total de : ",
+    "articleswhichusercontributed":
+      "Articles auxquels {0} a contribué(e) avec un score total de: ",
 
     "from":
       "Du",
@@ -62,7 +62,7 @@
       "Différence de taille :",
 
     "thecontributionsurvivedno":
-      "La contribution a survécu : ",
+      "La contribution a survécu : Non",
 
     "talk":
       "Discussion",
@@ -102,11 +102,8 @@
     "articles":
       "Articles",
 
-    "articles_which":
-      "Articles which",
-
-    "contributed_to":
-      "contributed to with total score: ",
+    "articleswhichusercontributed":
+      "Articles which {0} contributed to with total score: ",
 
     "from":
       "From",
@@ -148,7 +145,7 @@
       "Size diff: ",
 
     "thecontributionsurvivedno":
-      "The contribution survived: ",
+      "The contribution survived: No",
 
     "talk":
       "Talk",
@@ -175,6 +172,9 @@
       "Wikipedia web site",
 
     "yes":
-      "Yes"
+      "Yes",
+      
+    "articletitleon":
+      "Article: '{0}' on {1}"
   }
 }
