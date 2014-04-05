@@ -12,6 +12,9 @@
 
     "article":
       "Article",
+      
+    "articletitleon":
+      "Article: '{0}' sur {1}",      
 
     "articles":
       "Articles",
@@ -59,7 +62,7 @@
       "Différence de taille :",
 
     "thecontributionsurvivedno":
-      "La contribution a survécu : ",
+      "La contribution a survécu : Non",
 
     "talk":
       "Discussion",
@@ -142,7 +145,7 @@
       "Size diff: ",
 
     "thecontributionsurvivedno":
-      "The contribution survived: ",
+      "The contribution survived: No",
 
     "talk":
       "Talk",
@@ -169,6 +172,9 @@
       "Wikipedia web site",
 
     "yes":
-      "Yes"
+      "Yes",
+      
+    "articletitleon":
+      "Article: '{0}' on {1}"
   }
 }
