@@ -10,11 +10,13 @@ var i18n = (function(){
 		//On va chercher l'objet général de la langue.
 		var tableTraduction = traduction[currentLanguage];
 		if (tableTraduction === undefined) {
+			console.log("Language is undefined for language: " + currentLanguage);
 			return key;
 		}
 
 		var valeurTraduite = tableTraduction[key];
 		if (valeurTraduite === undefined) {
+			console.log("Value is undefined for key " + key);
 			return key;
 		}
 		return valeurTraduite;
