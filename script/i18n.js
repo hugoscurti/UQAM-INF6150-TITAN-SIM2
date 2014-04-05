@@ -37,13 +37,12 @@ var i18n = (function($){
 		traduction = languageTables;
 	};
 	
-	//on translate une key
+	//on traduit une clé (key)
 	//args est un tableau qui contient les valeurs à remplacer dans le texte.
-	//exemple si la valeur retourné par la clé contient {1}, on va chercher la valeur dans args[1]
+	//exemple si la valeur retournée par la clé contient {1}, on va chercher la valeur dans args[1]
 	my.translate = function(key, args){
 		var valeurTraduite = translationString(key);
 		
-		//var result = /\{([0-9]+)\}/.exec(valeurTraduite);
 		if(args !== undefined) {
 			for(var i = 0; i < args.length; ++i){
 				var match = "{" + i + "}";
@@ -55,7 +54,7 @@ var i18n = (function($){
 	};
 	
 
-	
+	//Les attributs de balises suivants sont consultés:
 	//i18nkey_title
 	//i18nkey_placeholder
 	//i18nkey
@@ -68,7 +67,7 @@ var i18n = (function($){
 			key = $(this).attr("i18nkey");
 			textValue= my.translate(key);
 			
-			//iterate through text value to find {i} occurences
+			//iterate through text value to find "{i}" occurences
 			var i = 0;
 			var args = [];
 			while($(this).attr("i18nreplace" + i) !== undefined) {
@@ -115,7 +114,4 @@ var i18n = (function($){
 	
 	return my;
 })($);
-
-
-
 
