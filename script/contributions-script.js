@@ -47,7 +47,7 @@ function callback_Q1(data, continueFlag) {
     totalVal = parseInt($("#total_score_contr").text());
     html_list_articles = $("#articles").html();
   }else{
-    $("#titre").html('Articles which ' + user + ' contributed to with total score: <span id="total_score_contr"></span>');
+    $("#titre").html('<span i18nkey="articleswhichusercontributed">Articles which ' + user + ' contributed to with total score: </span><span id="total_score_contr"></span>');
   }
 
   //doSlideUpAnimation(contributions, 0, lastItem, totalVal, html_list_articles);
@@ -61,11 +61,11 @@ function callback_Q1(data, continueFlag) {
 
         html_list_articles += '<div class="list_articles_item_title">' + contributions[i].title + '</div>' +
                               '<span class="list_articles_item_surv"></span>' +
-                              '<div class="list_articles_item_size">Size: ' + contributions[i].size + '</div>';
+                              '<div class="list_articles_item_size" i18nkey="size">Size: ' + contributions[i].size + '</div>';
       if (contributions[i].sizediff < 0) {
-        html_list_articles += '<div class="list_articles_item_size_diff">Size diff: <span class="sizediff_neg">' + Math.abs(contributions[i].sizediff) + '</span></div>';
+        html_list_articles += '<div class="list_articles_item_size_diff" i18nkey="sizediff">Size diff: <span class="sizediff_neg">' + Math.abs(contributions[i].sizediff) + '</span></div>';
       } else {
-        html_list_articles += '<div class="list_articles_item_size_diff">Size diff: ' + contributions[i].sizediff + '</div>';
+        html_list_articles += '<div class="list_articles_item_size_diff" i18nkey="sizediff">Size diff: ' + contributions[i].sizediff + '</div>';
       }
       html_list_articles += '<span class="list_articles_item_time">' + contributions[i].timestamp + '</span>';
       html_list_articles += '<input class="list_articles_item_pageid" type="hidden" value="' + contributions[i].pageid + '"/>' +
