@@ -1,35 +1,35 @@
 ﻿{
   "fr-CA": {
   	
-  	"setLanguageFrench": 
-	  "Français",
-  	
-  	"setLanguageEnglish": 
-  	  "Anglais",
-  
     "advancedsearch":
       "Recherche avancée",
 
     "article":
       "Article",
       
-    "articletitleon":
-      "Article: '{0}' sur {1}",      
-
     "articles":
       "Articles",
 
     "articleswhichusercontributed":
       "Articles auxquels {0} a contribué(e) avec un score total de: ",
+      
+    "articletitleon":
+      "Article: '{0}' sur {1}", 
+      
+    "entertheurlforthewikipediawebsitethecontributorhascontributedto":
+      "Entrer le URL du site web Wikipédia où le contributeur a contribué (sans http://). Exemple : fr.wikipedia.org",
+
+    "entertheusernameoripaddressofthecontributor":
+      "Entrer le nom d'utilisateur ou l'adresse IP du contributeur",               
 
     "from":
       "Du",
-      
-    "grisouwikicontributionsproject":
-      "Grisou | Projet de contributions Wiki",      
 
     "grisouscientificcontributionsreporterbyvogg2013":
       "Outil de reconnaissance de contributions scientifiques par VOGG 2013 (GRISOU)",
+      
+    "grisouwikicontributionsproject":
+      "Grisou | Projet de contributions Wiki",        
 
     "levenshtein":
       "Valeur de distance de Levenshtein : ",
@@ -54,36 +54,45 @@
 
     "send":
       "Envoyer",
+      
+  	"setLanguageEnglish": 
+  	  "Anglais",
+
+  	"setLanguageFrench": 
+	  "Français",      
 
     "size":
       "Taille :",
 
     "sizediff":
       "Différence de taille :",
-
-    "thecontributionsurvivedno":
-      "La contribution a survécu : Non",
-
+      
     "talk":
       "Discussion",
 
     "talks":
-      "Discussions",
+      "Discussions",      
+
+    "thecontributionsurvivedno":
+      "La contribution a survécu : Non",
 
     "to":
       "Au",
+      
+    "usernameoripofthecontributor":
+      "Nom d'utilisateur ou l'adresse IP du contributeur", 
+      
+    "vslast":
+      "vs dernière",  
+      
+    "vsnext":
+      "vs suivante",          
 
     "vsoriginal":
       "vs originale",
       
     "vsprevious":
       "vs précédente",
-      
-    "vsnext":
-      "vs suivante",
-      
-    "vslast":
-      "vs dernière", 
       
     "wikipediawebsite":
       "Site web de Wikipedia", 
@@ -93,27 +102,37 @@
   },
 
   "en-CA": {
+  
     "advancedsearch":
       "Advanced search",
 
     "article":
       "Article",
-
+      
     "articles":
       "Articles",
 
     "articleswhichusercontributed":
       "Articles which {0} contributed to with total score: ",
+      
+    "articletitleon":
+      "Article: '{0}' on {1}",     
+      
+    "entertheurlforthewikipediawebsitethecontributorhascontributedto":
+      "Enter the URL for the Wikipedia web site the contributor has contributed to (without the http://), Example: en.wikipedia.org",
+
+    "entertheusernameoripaddressofthecontributor":
+      "Enter the username or IP address of the contributor.",      
 
     "from":
       "From",
       
-    "grisouwikicontributionsproject":
-      "Grisou | Wiki contributions Project",
-
     "grisouscientificcontributionsreporterbyvogg2013":
       "GRISOU scientific contributions reporter by VOGG 2013",
-
+      
+    "grisouwikicontributionsproject":
+      "Grisou | Wiki contributions Project",      
+      
     "levenshtein":
       "Levenshtein distance value: ",
 
@@ -126,55 +145,53 @@
     "nominoredit":
       "No minor edit: ",
 
-    "entertheurlforthewikipediawebsitethecontributorhascontributedto":
-      "Enter the URL for the Wikipedia web site the contributor has contributed to (without the http://), Example: en.wikipedia.org",
-
-    "entertheusernameoripaddressofthecontributor":
-      "Enter the username or IP address of the contributor.",
-      
-    "usernameoripofthecontributor":
-      "Username or ip of the contributor",
-
     "send":
       "Send",
-
+      
+  	"setLanguageEnglish": 
+  	  "English",          
+      
+  	"setLanguageFrench": 
+	  "French",
+  	 
     "size":
       "Size: ",
 
     "sizediff":
       "Size diff: ",
-
-    "thecontributionsurvivedno":
-      "The contribution survived: No",
-
+      
     "talk":
       "Talk",
 
     "talks":
-      "Talks",
+      "Talks",      
+
+    "thecontributionsurvivedno":
+      "The contribution survived: No",
 
     "to":
       "To",
-
+      
+    "usernameoripofthecontributor":
+      "Username or ip of the contributor", 
+      
+    "vslast":
+      "vs last", 
+      
+    "vsnext":
+      "vs next",       
+           
     "vsoriginal":
       "vs original",
       
     "vsprevious":
       "vs previous",
       
-    "vsnext":
-      "vs next",
-      
-    "vslast":
-      "vs last",  
-
     "wikipediawebsite":
       "Wikipedia web site",
 
     "yes":
-      "Yes",
+      "Yes"
       
-    "articletitleon":
-      "Article: '{0}' on {1}"
   }
 }
