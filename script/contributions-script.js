@@ -2,6 +2,26 @@
 var oldText, newText, wiki, analysisTable, url, user, activeAjaxConnections = 0,
 tabSelected = "Articles";
 
+//Variables pour l'internationalisation
+var _ = "";
+
+$(document).ready(function(){
+	_ = i18n.translate;
+	$.getJSON("resources/lang.json", function(traductions) {
+		i18n.init("fr-CA", traductions);
+		i18n.translatePage();
+	});
+	
+	$("#btnSetFrench").click(function(){
+		i18n.changeLanguage("fr-CA");
+	});
+	
+	$("#btnSetEnglish").click(function(){
+		i18n.changeLanguage("en-CA");
+	});
+});
+
+
 function clearScreen() {
   if(tabSelected === "Articles"){
     $("#articles").html("");
